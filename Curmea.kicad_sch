@@ -2579,6 +2579,10 @@
 		(uuid "6088525b-fb61-4167-b7ac-d3963048b9a8")
 	)
 	(no_connect
+		(at 62.23 87.63)
+		(uuid "80219649-245b-4984-b05e-73e82af95494")
+	)
+	(no_connect
 		(at 99.06 78.74)
 		(uuid "e8aa5094-01c4-4042-b08e-1086403ee15b")
 	)
@@ -2854,7 +2858,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 139.7) (xy 91.44 139.7)
+			(xy 35.56 139.7) (xy 91.44 139.7)
 		)
 		(stroke
 			(width 0)
@@ -3284,7 +3288,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 80.01) (xy 62.23 80.01)
+			(xy 34.29 80.01) (xy 62.23 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3560,7 +3564,7 @@
 	)
 	(hierarchical_label "IN+"
 		(shape input)
-		(at 60.96 139.7 180)
+		(at 35.56 139.7 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3572,7 +3576,7 @@
 	)
 	(hierarchical_label "IN-"
 		(shape input)
-		(at 55.88 80.01 180)
+		(at 34.29 80.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3956,7 +3960,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296X_Horizontal"
 			(at 62.23 83.82 0)
 			(effects
 				(font
