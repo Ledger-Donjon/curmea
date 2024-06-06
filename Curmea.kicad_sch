@@ -7,7 +7,7 @@
 	(title_block
 		(title "Power Consumption Measurer")
 		(date "2024-04-25")
-		(rev "1")
+		(rev "0.2")
 		(company "Ledger")
 		(comment 1 "Michael Mouchous")
 	)
@@ -1047,6 +1047,169 @@
 					(at 0 -3.81 90)
 					(length 2.794)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:D"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2385,7 +2548,7 @@
 		(uuid "1820fe77-3f70-4c5a-a753-75b3f7105582")
 	)
 	(junction
-		(at 200.66 129.54)
+		(at 200.66 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "19e1e8da-059d-4ecd-a908-d255ba30d978")
@@ -2395,12 +2558,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "276e585d-50d0-4771-85ef-7d015027f6e0")
-	)
-	(junction
-		(at 190.5 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2f7a6046-c2de-453d-8ff9-1b456fde45e8")
 	)
 	(junction
 		(at 96.52 76.2)
@@ -2517,6 +2674,12 @@
 		(uuid "bcb39ed3-9bd4-465e-b0ae-1a65cdd7256d")
 	)
 	(junction
+		(at 190.5 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd629fca-53db-425f-9c99-e04532ebca14")
+	)
+	(junction
 		(at 96.52 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2529,7 +2692,7 @@
 		(uuid "c820818d-82e7-43af-8409-dc6e043cd758")
 	)
 	(junction
-		(at 195.58 132.08)
+		(at 195.58 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d07cde96-521a-4dc5-85a3-5ccda6551b13")
@@ -2547,7 +2710,7 @@
 		(uuid "d96c49d2-7371-4490-9060-0c414aebe2e2")
 	)
 	(junction
-		(at 205.74 132.08)
+		(at 205.74 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "db739831-f20e-4185-aeaa-c4526665ecef")
@@ -2559,16 +2722,16 @@
 		(uuid "e6e3ed10-fffe-40aa-8803-89bdfe0cffb9")
 	)
 	(junction
-		(at 210.82 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e761353d-e73e-40c4-becd-a22893b4b0a7")
-	)
-	(junction
 		(at 207.01 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f6ba8829-0dfc-49e2-9b1b-1c53b0d84a3c")
+	)
+	(junction
+		(at 210.82 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fda7e60f-c7bb-4a31-9814-685dcdac3049")
 	)
 	(no_connect
 		(at 144.78 118.11)
@@ -2698,16 +2861,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 132.08) (xy 190.5 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19f615d8-7cb2-4c36-a88a-f08860dfba5c")
-	)
-	(wire
-		(pts
 			(xy 199.39 95.25) (xy 200.66 95.25)
 		)
 		(stroke
@@ -2758,16 +2911,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 125.73) (xy 210.82 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30d7fffc-aa20-4fbf-b072-024ca113a88d")
-	)
-	(wire
-		(pts
 			(xy 137.16 107.95) (xy 133.35 107.95)
 		)
 		(stroke
@@ -2788,7 +2931,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 132.08) (xy 205.74 132.08)
+			(xy 203.2 143.51) (xy 205.74 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2898,7 +3041,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 129.54) (xy 200.66 132.08)
+			(xy 200.66 140.97) (xy 200.66 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2908,7 +3051,17 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 132.08) (xy 195.58 132.08)
+			(xy 210.82 125.73) (xy 210.82 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59a5c0dd-cf58-41bf-af12-82eaa121cfe0")
+	)
+	(wire
+		(pts
+			(xy 198.12 143.51) (xy 195.58 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2935,6 +3088,16 @@
 			(type default)
 		)
 		(uuid "5d940238-73c3-4d45-8dc6-cc2fe36b7c01")
+	)
+	(wire
+		(pts
+			(xy 190.5 138.43) (xy 190.5 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "614d9d67-92df-4acd-ac1d-80bb62f67594")
 	)
 	(wire
 		(pts
@@ -3035,6 +3198,16 @@
 			(type default)
 		)
 		(uuid "8316da6a-43cb-4255-9657-7eded82920a4")
+	)
+	(wire
+		(pts
+			(xy 200.66 125.73) (xy 200.66 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83a6ff14-b58d-4d89-8e0a-1b87cbb1632c")
 	)
 	(wire
 		(pts
@@ -3228,6 +3401,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 138.43) (xy 210.82 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1369ada-cdd1-4f94-a20b-1d5de036851c")
+	)
+	(wire
+		(pts
 			(xy 128.27 137.16) (xy 133.35 137.16)
 		)
 		(stroke
@@ -3328,7 +3511,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 132.08) (xy 190.5 132.08)
+			(xy 195.58 143.51) (xy 190.5 143.51)
 		)
 		(stroke
 			(width 0)
@@ -3428,7 +3611,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 132.08) (xy 210.82 132.08)
+			(xy 205.74 143.51) (xy 210.82 143.51)
 		)
 		(stroke
 			(width 0)
@@ -3445,6 +3628,16 @@
 			(type default)
 		)
 		(uuid "edbaef04-4dcd-44bf-9a1f-4f7b70aeb861")
+	)
+	(wire
+		(pts
+			(xy 190.5 125.73) (xy 190.5 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0676f0b-d671-443c-be4e-27a3aec2438b")
 	)
 	(wire
 		(pts
@@ -3495,16 +3688,6 @@
 			(type default)
 		)
 		(uuid "f95dde52-fc09-40a5-ae77-888a8d8c4e9a")
-	)
-	(wire
-		(pts
-			(xy 200.66 125.73) (xy 200.66 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa91eebf-325b-4585-bf34-c9b8d9bd0698")
 	)
 	(wire
 		(pts
@@ -3734,6 +3917,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D")
+		(at 210.82 134.62 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "029de265-12fe-4c90-8178-5860a2fb669e")
+		(property "Reference" "D2"
+			(at 213.36 133.3499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 213.36 135.8899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
+			(at 210.82 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 210.82 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 210.82 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 210.82 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cffb598d-fdbd-42ee-b69c-f50311a6e7c7")
+		)
+		(pin "1"
+			(uuid "01e0e6e4-9ca2-460d-966f-4485513f207d")
+		)
+		(instances
+			(project "Curmea"
+				(path "/ab30c58f-986b-41a3-9da6-17a009da08d1"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:-2V5")
 		(at 96.52 100.33 180)
 		(unit 1)
@@ -3891,7 +4162,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 142.24 88.138 90)
 			(effects
 				(font
@@ -4033,7 +4304,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 113.792 128.27 90)
 			(effects
 				(font
@@ -4157,7 +4428,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 195.58 132.08 0)
+		(at 195.58 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4166,7 +4437,7 @@
 		(fields_autoplaced yes)
 		(uuid "347e6946-b778-44b1-b56c-eba9f389ad42")
 		(property "Reference" "#FLG03"
-			(at 195.58 130.175 0)
+			(at 195.58 141.605 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4175,7 +4446,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 195.5799 128.27 90)
+			(at 195.5799 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4185,7 +4456,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 132.08 0)
+			(at 195.58 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4194,7 +4465,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 195.58 132.08 0)
+			(at 195.58 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4203,7 +4474,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 195.58 132.08 0)
+			(at 195.58 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4407,7 +4678,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 113.792 96.52 90)
 			(effects
 				(font
@@ -4476,7 +4747,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 124.46 84.582 90)
 			(effects
 				(font
@@ -4668,7 +4939,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 200.66 137.16 90)
+		(at 200.66 148.59 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4677,7 +4948,7 @@
 		(fields_autoplaced yes)
 		(uuid "61a68882-1dcd-485c-b120-b79aca2bcfdd")
 		(property "Reference" "J5"
-			(at 200.66 139.7 90)
+			(at 200.66 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4685,7 +4956,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 200.66 142.24 90)
+			(at 200.66 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4693,7 +4964,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 200.66 137.16 0)
+			(at 200.66 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4702,7 +4973,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 200.66 137.16 0)
+			(at 200.66 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4711,7 +4982,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 200.66 137.16 0)
+			(at 200.66 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5300,7 +5571,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 124.46 138.938 90)
 			(effects
 				(font
@@ -5437,7 +5708,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 113.792 113.03 90)
 			(effects
 				(font
@@ -5835,7 +6106,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 200.66 129.54 90)
+		(at 200.66 140.97 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5844,7 +6115,7 @@
 		(fields_autoplaced yes)
 		(uuid "cc97b527-a190-4a10-ae67-80faac9dbd4a")
 		(property "Reference" "#FLG01"
-			(at 198.755 129.54 0)
+			(at 198.755 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5853,7 +6124,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 196.85 129.5399 90)
+			(at 196.85 140.9699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5863,7 +6134,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 129.54 0)
+			(at 200.66 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5872,7 +6143,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 200.66 129.54 0)
+			(at 200.66 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5881,7 +6152,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 200.66 129.54 0)
+			(at 200.66 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6036,7 +6307,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 205.74 132.08 0)
+		(at 205.74 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6045,7 +6316,7 @@
 		(fields_autoplaced yes)
 		(uuid "dddde9ba-c34b-4081-adab-e48e0d3f4e91")
 		(property "Reference" "#FLG02"
-			(at 205.74 130.175 0)
+			(at 205.74 141.605 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6054,7 +6325,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 205.7399 128.27 90)
+			(at 205.7399 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6064,7 +6335,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 132.08 0)
+			(at 205.74 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6073,7 +6344,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 205.74 132.08 0)
+			(at 205.74 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6082,7 +6353,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 205.74 132.08 0)
+			(at 205.74 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6327,7 +6598,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 142.24 138.938 90)
 			(effects
 				(font
@@ -6564,6 +6835,94 @@
 			(project "Curmea"
 				(path "/ab30c58f-986b-41a3-9da6-17a009da08d1"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 190.5 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "efa3ce8b-d992-491c-adc0-b5275c57e940")
+		(property "Reference" "D1"
+			(at 193.04 133.3499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 193.04 135.8899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
+			(at 190.5 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 190.5 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 190.5 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 190.5 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8074a90b-3633-4a6e-9c50-4e7aca3c768b")
+		)
+		(pin "1"
+			(uuid "dd5b009d-8132-45a8-8257-7ac15ab1b415")
+		)
+		(instances
+			(project "Curmea"
+				(path "/ab30c58f-986b-41a3-9da6-17a009da08d1"
+					(reference "D1")
 					(unit 1)
 				)
 			)
