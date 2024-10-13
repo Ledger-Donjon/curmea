@@ -2536,6 +2536,12 @@
 		(uuid "14151635-ff2f-4bbc-9de3-5757c3f82a8e")
 	)
 	(junction
+		(at 58.42 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "160c0723-3986-4dd3-a46f-0aacd285b29e")
+	)
+	(junction
 		(at 115.57 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2584,12 +2590,6 @@
 		(uuid "402027e0-f6e9-4c12-bad5-864e84844a8e")
 	)
 	(junction
-		(at 62.23 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "493e18b5-d591-472d-bb28-a149ab0d2094")
-	)
-	(junction
 		(at 200.66 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2602,10 +2602,10 @@
 		(uuid "517f8544-7874-488a-976b-7649a98cb4d1")
 	)
 	(junction
-		(at 73.66 83.82)
+		(at 58.42 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6358afdd-7a15-42d0-a7a6-b8f591be2ccb")
+		(uuid "61ad15d7-8b43-4e73-889c-2ef34111452f")
 	)
 	(junction
 		(at 91.44 134.62)
@@ -2630,6 +2630,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7d8893ba-ecb7-4084-8a57-694e053afdbe")
+	)
+	(junction
+		(at 58.42 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81725f42-ae41-459a-92ff-136cfd9fab34")
 	)
 	(junction
 		(at 158.75 86.36)
@@ -2692,6 +2698,12 @@
 		(uuid "c820818d-82e7-43af-8409-dc6e043cd758")
 	)
 	(junction
+		(at 52.07 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cfef8599-ffa4-4850-ba5d-9f6d7e3f8805")
+	)
+	(junction
 		(at 195.58 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2742,7 +2754,7 @@
 		(uuid "6088525b-fb61-4167-b7ac-d3963048b9a8")
 	)
 	(no_connect
-		(at 62.23 87.63)
+		(at 52.07 119.38)
 		(uuid "80219649-245b-4984-b05e-73e82af95494")
 	)
 	(no_connect
@@ -2801,7 +2813,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 83.82) (xy 73.66 83.82)
+			(xy 55.88 115.57) (xy 58.42 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2868,6 +2880,16 @@
 			(type default)
 		)
 		(uuid "1a319770-8622-4753-b5c7-947e6ef2d08d")
+	)
+	(wire
+		(pts
+			(xy 58.42 83.82) (xy 58.42 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f8f81f7-a476-4c46-a5b9-a023ffdcaa44")
 	)
 	(wire
 		(pts
@@ -2991,6 +3013,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 115.57) (xy 58.42 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46e3700d-a8b2-484b-a829-e4c214fc436f")
+	)
+	(wire
+		(pts
 			(xy 115.57 86.36) (xy 120.65 86.36)
 		)
 		(stroke
@@ -3001,7 +3033,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 139.7) (xy 91.44 139.7)
+			(xy 35.56 139.7) (xy 58.42 139.7)
 		)
 		(stroke
 			(width 0)
@@ -3091,6 +3123,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 83.82) (xy 58.42 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fe00812-3e0e-47d5-b780-8c3c20259218")
+	)
+	(wire
+		(pts
 			(xy 190.5 138.43) (xy 190.5 143.51)
 		)
 		(stroke
@@ -3128,16 +3170,6 @@
 			(type default)
 		)
 		(uuid "6d2a9d7b-f3ca-4e73-80d8-c0fe8300cf78")
-	)
-	(wire
-		(pts
-			(xy 73.66 80.01) (xy 73.66 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f8ab8f2-7d33-4fcd-a4ec-87fc473f297d")
 	)
 	(wire
 		(pts
@@ -3291,16 +3323,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 80.01) (xy 63.5 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5fbfef7-70cc-43ab-bf06-ff777feb4815")
-	)
-	(wire
-		(pts
 			(xy 76.2 134.62) (xy 76.2 118.11)
 		)
 		(stroke
@@ -3308,6 +3330,16 @@
 			(type default)
 		)
 		(uuid "a769dd75-2855-4d67-b3ab-c93a3575a065")
+	)
+	(wire
+		(pts
+			(xy 58.42 139.7) (xy 91.44 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab80f5c0-8918-47cf-93af-d100bce85cdc")
 	)
 	(wire
 		(pts
@@ -3471,7 +3503,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 80.01) (xy 62.23 80.01)
+			(xy 33.02 83.82) (xy 52.07 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3541,6 +3573,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 83.82) (xy 52.07 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e01294ca-119d-4227-9574-ce2e9a2e3791")
+	)
+	(wire
+		(pts
 			(xy 213.36 50.8) (xy 207.01 50.8)
 		)
 		(stroke
@@ -3551,7 +3593,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 83.82) (xy 73.66 83.82)
+			(xy 58.42 83.82) (xy 91.44 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3759,7 +3801,7 @@
 	)
 	(hierarchical_label "IN-"
 		(shape input)
-		(at 34.29 80.01 180)
+		(at 33.02 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4206,7 +4248,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer_Trim")
-		(at 62.23 83.82 0)
+		(at 52.07 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4214,7 +4256,7 @@
 		(dnp no)
 		(uuid "1f5aa994-5419-4fbf-9c56-f3e84bbe2695")
 		(property "Reference" "RV1"
-			(at 59.69 82.5499 0)
+			(at 49.53 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4223,7 +4265,7 @@
 			)
 		)
 		(property "Value" "R_Potentiometer_Trim"
-			(at 59.69 85.0899 0)
+			(at 49.53 116.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4232,7 +4274,7 @@
 			)
 		)
 		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296X_Horizontal"
-			(at 62.23 83.82 0)
+			(at 52.07 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4241,7 +4283,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 62.23 83.82 0)
+			(at 52.07 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4250,7 +4292,7 @@
 			)
 		)
 		(property "Description" "Trim-potentiometer"
-			(at 62.23 83.82 0)
+			(at 52.07 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5277,7 +5319,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Open")
-		(at 68.58 80.01 0)
+		(at 58.42 110.49 270)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -5286,23 +5328,25 @@
 		(fields_autoplaced yes)
 		(uuid "8a5d8fd4-5bfd-400e-b1ef-2fdce4a4c1a0")
 		(property "Reference" "JP1"
-			(at 68.58 73.66 0)
+			(at 60.96 109.2199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "Jumper_2_Open"
-			(at 68.58 76.2 0)
+			(at 60.96 111.7599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 68.58 80.01 0)
+			(at 58.42 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5311,7 +5355,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 68.58 80.01 0)
+			(at 58.42 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5320,7 +5364,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, open"
-			(at 68.58 80.01 0)
+			(at 58.42 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
