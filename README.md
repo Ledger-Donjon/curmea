@@ -1,8 +1,7 @@
 # Curmea
 
 ![Curmea Device](Curmea.png)
-
-Curmea is an open-source hardware power analysis device, designed for hardware security research.
+Curmea (for **cur**rent **mea**surement) is an open-source hardware power analysis device, designed for hardware security research.
 
 ## Purpose of the device
 
@@ -18,3 +17,7 @@ The board is based on the [Instrumentation amplifier](https://en.wikipedia.org/w
 ## Development status
 
 This work is currently in progress and not fully tested and optimized.
+
+## Licensing
+
+Curmea is released under GNU Lesser General Public Licence version 3 (LGPLv3). See COPYING and COPYING.LESSER for license details.
