@@ -1,0 +1,33 @@
+### Footprint positions - created on 2024-04-29T15:50:31+0200 ###
+### Printed by KiCad version 8.0.1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                   Package                                   PosX       PosY       Rot  Side
+C1        100n                  C_0603_1608Metric                     141.8000   -73.6000  180.0000  top
+C2        100n                  C_0603_1608Metric                     141.8000   -76.4000  180.0000  top
+C3        100n                  C_0603_1608Metric                     141.8000   -84.5000  180.0000  top
+C4        100n                  C_0603_1608Metric                     141.8000   -81.5000  180.0000  top
+C5        100n                  C_0603_1608Metric                     152.7500   -75.5000   90.0000  top
+C6        100n                  C_0603_1608Metric                     151.5000   -82.0000    0.0000  top
+C7        10uF                  C_0603_1608Metric                     132.1000   -85.0000  -90.0000  top
+C8        10uF                  C_0603_1608Metric                     132.1000   -71.8000  -90.0000  top
+C9        10uF                  C_0603_1608Metric                     125.5000   -72.5000    0.0000  top
+C10       10uF                  C_0603_1608Metric                     126.2500   -85.2500  -90.0000  top
+J1        Conn_Coaxial          SAMTEC_SMA_J_P_H_ST_EM3               161.7000   -78.7800  180.0000  top
+J3        Conn_01x02_Pin        PinHeader_1x02_P2.54mm_Vertical       131.0000   -80.0400  180.0000  top
+J5        Conn_01x03_Pin        PinHeader_1x03_P2.54mm_Vertical       117.2500   -81.0800  180.0000  top
+JP1       Jumper_2_Open         PinHeader_1x02_P2.54mm_Vertical       126.7500   -80.0400  180.0000  top
+R1        OPT                   R_0402_1005Metric                     135.5000   -78.5000  -90.0000  top
+R2        1k                    R_0402_1005Metric                     137.0000   -79.0000    0.0000  top
+R3        1k                    R_0402_1005Metric                     137.0000   -78.0000  180.0000  top
+R4        1k                    R_0402_1005Metric                     141.5000   -83.0000    0.0000  top
+R5        1k                    R_0402_1005Metric                     141.4900   -75.0000  180.0000  top
+R6        1k                    R_0402_1005Metric                     148.0000   -75.0000    0.0000  top
+R7        1k                    R_0402_1005Metric                     148.0000   -81.9000    0.0000  top
+RV1       R_Potentiometer_Trim  Potentiometer_Bourns_3296W_Vertical   122.0000   -81.5000  -90.0000  top
+U1        LTC6268xS8-10         SO-8_3.9x4.9mm_P1.27mm                136.5750   -82.5000    0.0000  top
+U2        LTC6268xS8-10         SO-8_3.9x4.9mm_P1.27mm                136.5750   -74.4050    0.0000  top
+U3        LTC6268xS8-10         SO-8_3.9x4.9mm_P1.27mm                148.0750   -78.5000    0.0000  top
+U6        ADP7182AUJZ-2.5       TSOT-23-5                             129.2000   -83.7000    0.0000  top
+U7        ADP7142AUJZ-2.5       TSOT-23-5                             129.2625   -73.5500    0.0000  top
+## End
